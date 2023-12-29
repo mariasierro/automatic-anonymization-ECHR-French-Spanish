@@ -4,11 +4,11 @@ The different corpora and the notebooks with the experiments are divided in diff
 
 - The branch "full-corpora-(127-texts)" focuses on the Spanish and French corpora of 127 case reports per language that were annotated by automatically projecting the annotations of the English corpus built by Pilán et al. (2022). The files with the name ...-sents-number.tsv correspond to the same corpora but with numbered sentences in order to facilitate the assessment of the mBERT model.
 
-- The branch "corpora-projected-reviewed-annots" focuses on all the corpora with annotations that were projected and subsequently reviewed by human reviewers.
+- The branch "corpora-projected-reviewed-annots" focuses on the subset of the aforementioned corpora containing the texts whose annotations were projected and subsequently reviewed by human reviewers.
 
-- The branch "corpora-projected-non-reviewed-annots" focuses on all the corpora with annotations that were projected but not reviewed by human reviewers.
+- The branch "corpora-projected-non-reviewed-annots" focuses on the subset of the corpora containing the texts whose annotations were projected but not reviewed by human reviewers.
 
-- The branch "corpora-projected-FR-MT" focuses on the French corpus with automatic translations and projected annotations (both reviewed and non-reviewed).
+- The branch "corpora-projected-FR-MT" focuses on the subset of the French corpora containing automatic translations with projected annotations (both reviewed and non-reviewed).
 
 - The branch "corpora-manual-annots" contains the corpora in French and Spanish (parallel to the corpora included in the branch "corpora-projected-reviewed-annots") that differ on the annotation procedure: these corpora (one per language) were manually annotated by following a reinterpretation of Pilán et al. (ibid) guidelines.
 
