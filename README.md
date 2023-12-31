@@ -10,7 +10,7 @@ The different corpora and the notebooks with the experiments are divided in diff
 
 - The branch "corpora-projected-FR-MT" focuses on the subset of the French corpora containing automatic translations with projected annotations (both reviewed and non-reviewed).
 
-- The branch "corpora-manual-annots" contains the corpora in French and Spanish (parallel to the corpora included in the branch "corpora-projected-reviewed-annots") that differ on the annotation procedure: these corpora (one per language) were manually annotated by following a reinterpretation of Pilán et al. (ibid) guidelines.
+- The branch "corpora-manual-annots" contains the corpora in French and Spanish (parallel to the corpora included in the branch "corpora-projected-reviewed-annots") that differ on the annotation procedure: these corpora (one per language) were manually annotated by following a reinterpretation of Pilán et al. (ibid) guidelines. The best-performing fine-tuned NER models that resulted from the experiments on this corpora are available on Huggingface: mslaintef/flair-ner-echr-es-manual and mslaintef/flair-ner-echr-fr-manual.
 
 References
 
