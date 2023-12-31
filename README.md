@@ -2,7 +2,7 @@ This repository contains the corpora of case reports from the European Court of 
 
 The different corpora and the notebooks with the experiments are divided in different branches:
 
-- The branch "full-corpora-(127-texts)" focuses on the Spanish and French corpora of 127 case reports per language that were annotated by automatically projecting the annotations of the English corpus built by Pilán et al. (2022). The files with the name ...-sents-number.tsv correspond to the same corpora but with numbered sentences in order to facilitate the assessment of the mBERT model. The best-performing fine-tuned NER models that resulted from the experiments on this corpora are available on Huggingface: mslaintef/flair-ner-echr-es and mslaintef/flair-ner-echr-fr.
+- The branch "full-corpora-(127-texts)" focuses on the Spanish and French corpora of 127 case reports per language that were annotated by automatically projecting the annotations of the English corpus built by Pilán et al. (2022). The files with the name ...-sents-number.tsv correspond to the same corpora but with numbered sentences in order to facilitate the assessment of the mBERT model. The best-performing fine-tuned NER models that resulted from the experiments on this corpora are available on Huggingface: mslaintef/flair-ner-echr-es-projected and mslaintef/flair-ner-echr-fr-projected.
 
 - The branch "corpora-projected-reviewed-annots" focuses on the subset of the aforementioned corpora containing the texts whose annotations were projected and subsequently reviewed by human reviewers.
 
